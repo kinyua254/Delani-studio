@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.one{
+    background-image: url(../images/walkingbackground.jpg);
+    height:140vh;
+    width: 158rem;
+    background-size: 155rem;
+    background-repeat: no-repeat;
+    float:right;
+    background-position:top right;
+    position:relative;
+
+}
+.welcome{
+    color: whitesmoke;
+    padding-top: 8.5rem;
+    padding-left: 20rem;
+}
+.studio{
+    color:white;
+    padding-top: 6rem;
+    padding-left: 32rem;
+}
+.people{
+    color:whitesmoke;
+    padding-left: 25rem;
+    font-size: 150%;
+}
+.mouse{
+    padding-top: 23.5rem;
+    padding-left: 1rem;
+}
+.img1{
+    padding-top: 19rem;
+    padding-left: 3rem;
+}
+#about{
+    margin-top: -50rem;
+
+}
+#aboutus{
+    font-size: 150%;
+}
+.services{
+    background-image: url(../images/laptop\ background.jpg);
+    color: white;
+    background-size: cover;
+    height: 30rem;
+}
+#servicess{
+    padding-top: 6rem;
+    font-size: 150%;
+}
