@@ -3,11 +3,23 @@ $('.developments').click(function(){
     $('.developments').slideToggle();
 
 });
+$('#ddevelopment').click(function(){
+    $('.developments').slideToggle();
+    $('#ddevelopment').slideToggle();
+});
 $('.imgdesign').click(function(){
     $('#design').slideToggle();
     $('.imgdesign').slideToggle();
 });
+$('#design').click(function(){
+    $('.imgdesign').slideToggle();
+    $('#design').slideToggle();
+});
 $('.promanagement').click(function(){
     $('#product').slideToggle();
     $('.promanagement').slideToggle();
+});
+$('#product').click(function(){
+    $('.promanagement').slideToggle();
+    $('#product').slideToggle();
 });
