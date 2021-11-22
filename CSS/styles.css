@@ -54,20 +54,20 @@
     font-size: 150%;
 }
 #whatwedo{
-    height: 40rem;
+    height: 30rem;
     margin-bottom: 2.5rem;
 }
 .contact{
     background-image: url(../images/camera\ background.jpg);
     background-size: cover;
     height: 49rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     padding-left: 30rem;
     width: 100%;
 }
 #name{
     background-color: transparent;
-    outline: none;
+    outline: rgb(156, 143, 143);
     width: 40%;
     text-align: justify;
     height: 3rem;
@@ -108,4 +108,13 @@
 }
 .btn:hover{
     background-color: gold;
+}
+#ddevelopment{
+    display:none
+}
+#design{
+    display: none;
+}
+#product{
+    display: none;
 }
