@@ -57,3 +57,53 @@
     height: 40rem;
     margin-bottom: 2.5rem;
 }
+.contact{
+    background-image: url(../images/camera\ background.jpg);
+    background-size: cover;
+    height: 45rem;
+    margin-bottom: 5rem;
+    padding-left: 30rem;
+}
+#name{
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    text-align: justify;
+    height: 3rem;
+}
+#email{
+    background-color: transparent;
+    outline: none;
+    width: 39%;
+    text-align: justify;
+    height: 3rem;
+}
+#text1{
+    background-color: transparent;
+    width: 80%;
+    outline: whitesmoke;
+}
+#text1:hover{
+    background-color:white;
+}
+#contact{
+    color: whitesmoke;
+    text-align: center;
+    padding-right: 20rem;
+    padding-top: 5rem;
+}
+.pofolio{
+    width: 82%;
+}
+#imagess{
+    text-align: center;
+
+}
+.btn{
+    border-radius: 10rem;
+    background-color:white;
+
+}
+.btn:hover{
+    background-color: gold;
+}
