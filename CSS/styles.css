@@ -82,9 +82,10 @@
     background-color: transparent;
     width: 80%;
     outline: whitesmoke;
+
 }
 #text1:hover{
-    background-color:white;
+    background-color:grey;
 }
 #contact{
     color: whitesmoke;
