@@ -60,9 +60,10 @@
 .contact{
     background-image: url(../images/camera\ background.jpg);
     background-size: cover;
-    height: 45rem;
+    height: 49rem;
     margin-bottom: 5rem;
     padding-left: 30rem;
+    width: 100%;
 }
 #name{
     background-color: transparent;
