@@ -27,7 +27,12 @@ $(document).ready(function() {
     $('form#credentials').submit(function(event){
         event.preventDefault();
         var nameInput = $('#name').val();
-        var result = nameInput;
-        $('#output').text(result);
+        var emailInput = $('#email').val();
+        var textAreaInput = $('#text1').val();
+        if($('#name').val() && $('#email').val()){
+        alert(nameInput + ", we have received your message. Thank you for reaching out to us."+ " Your Email address:" + emailInput );
+        }else{
+            alert('enter a valid name and email');
+        }
     });
 });
