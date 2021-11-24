@@ -4,9 +4,9 @@
 }
 .one{
     background-image: url(../images/walking\ background.jpg);
-    height:140vh;
+    height:120vh;
     width: 158rem;
-    background-size: 155rem;
+    background-size: 100rem;
     background-repeat: no-repeat;
     float:right;
     background-position:top right;
@@ -15,29 +15,29 @@
 }
 .welcome{
     color: whitesmoke;
-    padding-top: 14.5rem;
-    padding-left: 20rem;
+    padding-top: 6.5rem;
+    padding-left: 58rem;
 }
 .studio{
     color:white;
     padding-top: 6rem;
-    padding-left: 32rem;
+    padding-left:60rem;
 }
 .people{
     color:whitesmoke;
-    padding-left: 25rem;
+    padding-left: 60rem;
     font-size: 150%;
 }
 .mouse{
-    padding-top: 15.8rem;
+    padding-top: 13.8rem;
     padding-left: 50rem;
 }
 .img1{
-    padding-top: 19rem;
-    padding-left: 3rem;
+    padding-top: 12rem;
+    padding-left: 58rem;
 }
 #about{
-    margin-top: -50rem;
+    margin-top: -15rem;
 
 }
 #aboutus{
@@ -47,7 +47,9 @@
     background-image: url(../images/laptop\ background.jpg);
     color: white;
     background-size: cover;
-    height: 30rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 #servicess{
     padding-top: 6rem;
@@ -136,7 +138,7 @@
     display: none;
 }
 #imagess{
-    padding-left:30rem;
+    padding-left:33rem;
     height:4rem;
     margin-bottom:2rem;
 }
