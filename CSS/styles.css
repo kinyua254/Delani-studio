@@ -1,12 +1,14 @@
+
+  
 *{
     padding: 0;
     margin: 0;
 }
 .one{
-    background-image: url(../images/walkingbackground.jpg);
-    height:140vh;
+    background-image: url(../images/walking\ background.jpg);
+    height:120vh;
     width: 158rem;
-    background-size: 155rem;
+    background-size: 100rem;
     background-repeat: no-repeat;
     float:right;
     background-position:top right;
@@ -15,29 +17,29 @@
 }
 .welcome{
     color: whitesmoke;
-    padding-top: 8.5rem;
-    padding-left: 20rem;
+    padding-top: 6.5rem;
+    padding-left: 58rem;
 }
 .studio{
     color:white;
     padding-top: 6rem;
-    padding-left: 32rem;
+    padding-left:60rem;
 }
 .people{
     color:whitesmoke;
-    padding-left: 25rem;
+    padding-left: 60rem;
     font-size: 150%;
 }
 .mouse{
-    padding-top: 23.5rem;
-    padding-left: 1rem;
+    padding-top: 13.8rem;
+    padding-left: 50rem;
 }
 .img1{
-    padding-top: 19rem;
-    padding-left: 3rem;
+    padding-top: 12rem;
+    padding-left: 58rem;
 }
 #about{
-    margin-top: -50rem;
+    margin-top: -15rem;
 
 }
 #aboutus{
@@ -47,20 +49,21 @@
     background-image: url(../images/laptop\ background.jpg);
     color: white;
     background-size: cover;
-    height: 30rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 #servicess{
     padding-top: 6rem;
     font-size: 150%;
 }
 #whatwedo{
-    height: 30rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 30px;
 }
 .contact{
     background-image: url(../images/camera\ background.jpg);
     background-size: cover;
-    height: 49rem;
+    height: 40rem;
     margin-bottom: 3rem;
     padding-left: 30rem;
     width: 100%;
@@ -94,13 +97,7 @@
     padding-right: 20rem;
     padding-top: 5rem;
 }
-.pofolio{
-    width: 82%;
-}
-#imagess{
-    text-align: center;
 
-}
 .btn{
     border-radius: 10rem;
     background-color:white;
@@ -141,4 +138,9 @@
 }
 #overlay8{
     display: none;
+}
+#imagess{
+    padding-left:33rem;
+    height:4rem;
+    margin-bottom:2rem;
 }

@@ -4,24 +4,24 @@ $('.developments').click(function(){
 
 });
 $('#ddevelopment').click(function(){
-    $('.developments').fadeToggle();
-    $('#ddevelopment').fadeToggle();
+    $('.developments').slideToggle();
+    $('#ddevelopment').slideToggle();
 });
 $('.imgdesign').click(function(){
     $('#design').slideToggle();
     $('.imgdesign').slideToggle();
 });
 $('#design').click(function(){
-    $('.imgdesign').fadeToggle();
-    $('#design').fadeToggle();
+    $('.imgdesign').slideToggle();
+    $('#design').slideToggle();
 });
 $('.promanagement').click(function(){
     $('#product').slideToggle();
     $('.promanagement').slideToggle();
 });
 $('#product').click(function(){
-    $('.promanagement').fadeToggle();
-    $('#product').fadeToggle();
+    $('.promanagement').slideToggle();
+    $('#product').slideToggle();
 });
 $(document).ready(function() {
     $('form#credentials').submit(function(event){
