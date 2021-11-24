@@ -10,9 +10,11 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/styles.css">
     </head>
@@ -117,97 +119,102 @@
                     </div>
 
                 </div>
-            </section>
-            <section class="container-fluid pofolio">
-                <h2 class="text-center"><strong>PORTFOLIO</strong></h2>
-                <div class="row padding" id="portfolio">
-                    <div class="col-md-3" id="imageone">
-                        <img src="images/cartoon.jpg" alt="cartoon">
-                        <p id="overlay" class="text">project one</p>
-                    </div>
-                    <div class="col-md-3">
 
-                        <img src="images/yellow background.jpg"
-                            alt="wallpaper">
-                        <p id="overlay2" class="text">project two</p>
 
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/ontario.jpg" alt="ontario">
-                        <p id="overlay3" class="text">project three</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/greybackground.jpg" alt="">
-                        <p id="overlay4" class="text">project four</p>
-                    </div>
 
+                <section>
+                    <div class="portfolio w-100">
+                        <h1 class="text-center">PORTFOLIO</h1>
+                        <div class="row w-75 mx-auto">
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/cartoon.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/yellow background.jpg" alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/ontario.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240"
+                                    src="images/greybackground.jpg" alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/goodday.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/calculator.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/burned.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-md-3 py-2 image">
+                                <img height="240" src="images/giraffe.jpg"
+                                    alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </section>t
+
+                <div class="container-fluid contact">
+                    <h2 id="contact" class="text-center">CONTACT US</h2>
+                    <form id="credentials">
+                        <div class="row">
+                            <input id="name" class="col-md-6" type="text"
+                                value=""
+                                placeholder="Name.." size="20">
+                            <input id="email" class="col-md-6" type="email"
+                                value=""
+                                placeholder="Email..." size="20"
+                                autocapitalize="off" autocomplete="off">
+                        </div>
+                        <textarea placeholder="Your message here..." id="text1"
+                            name="area1" cols="20" rows="10"></textarea>
+                        <div>
+                            <button class="btn" type="submit">SUBMIT</button>
+                        </div>
+                        <div id="output"></div>
+
+                    </form>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/goodday.jpg" alt="">
-                        <p id="overlay5" class="text">project five</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/calculator.jpg" alt="calc">
-                        <p id="overlay6" class="text">project six</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/burned.jpg" alt="burned">
-                        <p class="text" id="overlay7">project seven</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/giraffe.jpg" alt="giraffe wallpaper">
-                        <p class="text" id="overlay8">project eight</p>
-                    </div>
-                </div>
-            </section>
-
-            <div class="container-fluid contact">
-                <h2 id="contact" class="text-center">CONTACT US</h2>
-                <form id="credentials">
+                <footer>
                     <div class="row">
-                        <input id="name" class="col-md-6" type="text" value=""
-                            placeholder="Name.." size="20">
-                        <input id="email" class="col-md-6" type="email" value=""
-                            placeholder="Email..." size="20"
-                            autocapitalize="off" autocomplete="off">
+                        <div class="col-md-12" id="imagess">
+                            <img src="images/behance.png" alt="bahance">
+                            <img src="images/dribble.png" alt="dribble">
+                            <img src="images/facebook.png" alt="facebook">
+                            <img src="images/flickr.png" alt="flickr">
+                            <img src="images/g_plus.png" alt="g_plus">
+                            <img src="images/pinterest.png" alt="pinterest">
+                            <img src="images/skype.png" alt="skype">
+                            <img src="images/stumble_upon.png"
+                                alt="stumble_upon">
+                            <img src="images/twitter.png" alt="twitter">
+                            <img src="images/you_tube.png" alt="you_tube">
+                        </div>
                     </div>
-                    <textarea placeholder="Your message here..." id="text1"
-                        name="area1" cols="20" rows="10"></textarea>
-                    <div>
-                        <button class="btn" type="submit">SUBMIT</button>
+                    <div class="text-center">
+                        <p><strong>DELANI STUDIO</strong></p>
+                        <p>2021</p>
                     </div>
-                    <div id="output"></div>
+                </footer>
 
-                </form>
             </div>
-            <footer>
-                <div class="row">
-                    <div class="col-md-12" id="imagess">
-                        <img src="images/behance.png" alt="bahance">
-                        <img src="images/dribble.png" alt="dribble">
-                        <img src="images/facebook.png" alt="facebook">
-                        <img src="images/flickr.png" alt="flickr">
-                        <img src="images/g_plus.png" alt="g_plus">
-                        <img src="images/pinterest.png" alt="pinterest">
-                        <img src="images/skype.png" alt="skype">
-                        <img src="images/stumble_upon.png" alt="stumble_upon">
-                        <img src="images/twitter.png" alt="twitter">
-                        <img src="images/you_tube.png" alt="you_tube">
-                    </div>
-                </div>
-                <div class="text-center">
-                    <p><strong>DELANI STUDIO</strong></p>
-                    <p>2021</p>
-                </div>
-            </footer>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
 
-        </div>
+            <script
+                src="https://code.jquery.com/jquery-3.6.0.js"
+                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+            <script src="js/script.js"></script>
 
-        <script
-            src="https://code.jquery.com/jquery-3.6.0.js"
-            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
-
-    </body>
-</html>
+        </body>
+    </html>
